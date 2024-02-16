@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import MovieCard from "../components/MovieCard"
+import Genres from "../components/Genres"
 
 import './MovieGrid.css'
 
@@ -24,6 +25,7 @@ function Home() {
     
     return (
     <div className="container">
+        <Genres />
         <h2 className="title">Best Movies</h2>
         <div className="movies-container">
             {topMovies.length === 0 && <p>Loading...</p>}

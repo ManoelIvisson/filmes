@@ -1,0 +1,38 @@
+.genres {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    overflow-x: scroll;
+    background-color: #0d0d0d;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.genres p {
+    font-size: 1.5rem;
+    background-color: #02735E;
+    color: black;
+    padding: 1rem;
+    border: 2px solid #02735E;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.genres p:hover {
+    background-color: transparent;
+    color: #02735E;
+}
+
+.genres::-webkit-scrollbar {
+    background: #0d0d0d;
+    display: none;
+    height: 6px;
+}
+
+.genres::-webkit-scrollbar-thumb {
+    background: #02735E;
+}
+  
